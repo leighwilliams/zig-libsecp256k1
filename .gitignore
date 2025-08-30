@@ -1,2 +1,10 @@
-zig-cache/
+.zig-cache/
 zig-out/
+/release/
+/debug/
+/build/
+/build-*/
+/docgen_tmp/
+
+# Older Zig folder names
+zig-cache/

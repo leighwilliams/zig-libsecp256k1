@@ -14,7 +14,7 @@ pub const secp256k1_context_create = c.secp256k1_context_create;
 pub const secp256k1_context_destroy = c.secp256k1_context_destroy;
 pub const secp256k1_context_randomize = c.secp256k1_context_randomize;
 pub fn getStaticContext() *const secp256k1_context {
-    return c.secp256k1_context_static;
+    return c.secp256k1_context_static.?;
 }
 pub const secp256k1_ecdsa_sign = c.secp256k1_ecdsa_sign;
 pub const secp256k1_ecdsa_verify = c.secp256k1_ecdsa_verify;

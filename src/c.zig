@@ -12,6 +12,7 @@ pub const secp256k1_ecdsa_recoverable_signature = c.secp256k1_ecdsa_recoverable_
 
 pub const secp256k1_context_create = c.secp256k1_context_create;
 pub const secp256k1_context_destroy = c.secp256k1_context_destroy;
+pub const secp256k1_context_randomize = c.secp256k1_context_randomize;
 pub const secp256k1_ecdsa_sign = c.secp256k1_ecdsa_sign;
 pub const secp256k1_ecdsa_verify = c.secp256k1_ecdsa_verify;
 pub const secp256k1_ec_pubkey_create = c.secp256k1_ec_pubkey_create;
